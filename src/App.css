@@ -1,8 +1,24 @@
-.App {
-  text-align: center;
-}
 
 .header-image{
-  min-height: 80%;
+width: 100%;
+height: auto;
 }
 
+.text-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+.text-body {
+  font-family: 'Avenir', sans-serif;
+  font-size: 19px;
+}
+
+.footer{
+  background-color: #343233;
+  color: #fff;
+}
+
+.footer-hr {
+  border-top: 2px #fff solid;
+}
