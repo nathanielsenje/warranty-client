@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&family=Titillium+Web:wght@700&display=swap');
 
 .App {
   font-family: 'Nunito Sans', sans-serif;
@@ -13,6 +13,10 @@
 .text-title {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
+}
+
+.text-body {
+  font-size: 1.2em;
 }
 
 .footer {
@@ -66,8 +70,9 @@
 }
 
 .shadow-div {
+  text-shadow: 0 3px 8px #222;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
   padding-bottom: 12rem;
   padding-top: 12rem;
   height: 40%;
@@ -88,4 +93,9 @@
   100% {
     transform: scale(1);
   }
+}
+
+.btn {
+  border-radius: 0px;
+  background-color: darkblue;
 }
