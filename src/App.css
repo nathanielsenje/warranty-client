@@ -23,7 +23,7 @@ height: auto;
   border-top: 2px #fff solid;
 }
 
-.btn-primary.pulse {
+.btn-primary .pulse {
   animation: pulse 2s infinite;
 }
 
@@ -39,8 +39,6 @@ height: auto;
   }
 }
 
-
-.btn {
-  border-radius: 0px;
-  background-color: ;
+.my-div {
+  background-color: #fbfbfb;
 }
