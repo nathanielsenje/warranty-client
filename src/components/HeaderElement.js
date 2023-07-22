@@ -6,12 +6,17 @@ import Col from "react-bootstrap/Col";
 
 function HeaderElement() {
   return (
+    <>
+    <div className="header-div">
+      <div className="shadow-div">
+        <h1 className="text-title text-center">Register Warranty</h1>
+        </div>
+    </div>
     <Container>
       <Row>
         <Col>
-          <div class="d-flex">
-            <div className="justify-content-center mt-5 mb-5 grey-area">
-              <h1 className="text-title mt-5 mb-5">ALAF Warranty</h1>
+            <div className="justify-content-center mb-5 grey-area">
+              <h1 className="text-title mt-5">ALAF Warranty</h1>
               <p className="text-body">
                 ALAF manufactures the highest quality products ensuring the best
                 performance and durability. We warrant that, our products are
@@ -28,11 +33,12 @@ function HeaderElement() {
                 Warranty covers manufacturing defects and surface coating finish
                 deterioration.
               </p>
-            </div>
           </div>
         </Col>
       </Row>
     </Container>
+    </>
+    
   );
 }
 

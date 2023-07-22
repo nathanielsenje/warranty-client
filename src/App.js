@@ -11,12 +11,6 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Image
-        src="https://alaf.co.tz/assets/img/headers/header-image.jpg"
-        className="header-image"
-        fluid
-      />
-
       <div className="container-fluid">
         <HeaderElement />
         {/* <Tabs /> */}
