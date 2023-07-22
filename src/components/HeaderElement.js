@@ -1,4 +1,5 @@
 // src/WarrantyRegister.js
+// eslint-disable-next-line
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

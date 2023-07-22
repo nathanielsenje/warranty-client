@@ -2,7 +2,6 @@
 import React from "react";
 import WarrantyRegister from "./components/WarrantyRegister";
 import HeaderElement from "./components/HeaderElement";
-import Image from "react-bootstrap/Image";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import "./App.css";
