@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&family=Titillium+Web:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&family=Titillium+Web:wght@700&display=swap");
 
 .App {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   min-width: 100%;
+  color: #121212;
 }
 
 .header-image {
@@ -11,7 +12,7 @@
 }
 
 .text-title {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
 }
 
@@ -50,7 +51,6 @@
   background-color: #fbfbfb;
 }
 
-
 @media (max-width: 768px) {
   .my-div {
     display: none;
@@ -67,6 +67,7 @@
   background-position: top;
   height: 40%;
   min-width: 100%;
+  margin-bottom: 0px;
 }
 
 .shadow-div {
@@ -77,25 +78,43 @@
   padding-top: 12rem;
   height: 40%;
   min-width: 100%;
+  margin-bottom: 0px;
 }
 
 .text-large {
   font-size: 2em;
 }
 
-@keyframes pulse-animation {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+.btn.pulse-animation {
+  box-shadow: 0 0 0 0 rgba(26, 87, 183, 0.19);
+  animation: pulse 1.5s infinite;
+  background-color: #225499;
 }
 
 .btn {
+  border: none;
   border-radius: 0px;
-  background-color: darkblue;
+  background-color: #0a2244;
+  font-family: "Titillium Web", sans-serif;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  text-transform: uppercase;
+}
+
+ul {
+  border-bottom: none;
+}
+#root > div > div.container-fluid > div.container.mt-5.container > ul {
+  border: none;
+}
+
+#root > div > div.container-fluid > div.container.mt-5.container > ul > li> button {
+  background-color: midnightblue;
+  color: #fafafa;
+  border-radius: 0px;
+  margin: 1em;
+}
+
+.spaced-text {
+  line-height: 2.5;
 }

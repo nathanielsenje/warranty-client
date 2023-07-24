@@ -133,7 +133,6 @@ function WarrantyRegister() {
                   onChange={handleChange}
                 />
               </FloatingLabel>
-
               <FloatingLabel
                 className="mb-3"
                 controlId="floatingInvoiceDate"
@@ -147,7 +146,6 @@ function WarrantyRegister() {
                   onChange={handleChange}
                 />
               </FloatingLabel>
-
               <FloatingLabel
                 className="mb-3"
                 controlId="floatingMobileNumber"
@@ -161,21 +159,18 @@ function WarrantyRegister() {
                   onChange={handleChange}
                 />
               </FloatingLabel>
-
-              <FloatingLabel
-                className="mb-3"
-                controlId="floatingBrandPurchased"
-                label="Brand Purchased"
-              >
-                <Form.Control
-                  type="text"
-                  name="brandPurchased"
-                  placeholder="Brand Purchased"
-                  value={formData.brandPurchased}
-                  onChange={handleChange}
-                />
-              </FloatingLabel>
-
+              <Form.Select aria-label="Products Bought">
+                <option>Products Bought</option>
+                <option value="lifestile">Lifestile</option>
+                <option value="romantile">Romantile</option>
+                <option value="versatile">Versatile</option> 19,500/- 28G
+                <option value="tekdek">Tekdek</option>
+                <option value="maxcover">Maxcover</option>
+                <option value="covermax">Covermax</option>
+                <option value="resincot">Resincot</option>
+                <option value="simbadumu">Simba Dumu</option>
+              </Form.Select>{" "}
+              <br />
               <FloatingLabel
                 className="mb-3"
                 controlId="floatingQuantityPurchased"

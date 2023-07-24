@@ -8,14 +8,14 @@ import Col from "react-bootstrap/Col";
 function HeaderElement() {
   return (
     <>
-    <div className="header-div">
-      <div className="shadow-div">
-        <h1 className="text-title text-center">Register Warranty</h1>
+      <div className="header-div">
+        <div className="shadow-div">
+          <h1 className="text-title text-center">Register Warranty</h1>
         </div>
-    </div>
-    <Container>
-      <Row>
-        <Col>
+      </div>
+      <>
+        <Container>
+          <Col>
             <div className="justify-content-center mb-5 grey-area">
               <h1 className="text-title mt-5">ALAF Warranty</h1>
               <p className="text-body">
@@ -34,12 +34,12 @@ function HeaderElement() {
                 Warranty covers manufacturing defects and surface coating finish
                 deterioration.
               </p>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+            </div>
+          </Col>
+          
+        </Container>
+      </>
     </>
-    
   );
 }
 
