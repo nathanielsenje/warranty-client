@@ -3,6 +3,12 @@ import React from "react";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import Container from "react-bootstrap/esm/Container";
+import Image from "react-bootstrap/esm/Image";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import InputGroup from "react-bootstrap/InputGroup";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function Footer() {
   return (
@@ -20,8 +26,46 @@ function Footer() {
               <p>Gallery</p>
               <p>Services</p>
             </Col>
-            <Col lg={8}></Col>
-            <Col lg={2}></Col>
+            <Col lg={8}>
+              <h1 className="text-title">Follow Us</h1>
+              <ul>
+                <li>
+                  <FontAwesomeIcon icon="fa-facebook" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon="fa-instagram" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon="fa-twitter" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon="fa-youtube" />
+                </li>
+                <li></li>
+              </ul>
+              <Form method="post">
+                <InputGroup className="mb-3" size="lg">
+                  <Form.Control
+                    type="email"
+                    placeholder="Email-Address"
+                    aria-label="E-mail Address"
+                    aria-describedby="basic-addon2"
+                  />
+                  <button id="button-addon2">SUBMIT</button>
+                </InputGroup>
+              </Form>
+            </Col>
+            <Col lg={2}>
+              <Row>
+                <p>Back to Top</p>
+              </Row>
+              <Row className="pinned">
+                <Image className="safal-logo"
+                  src="https://alaf.co.tz//assets/uploads/2019/04/safal-logo.png"
+                  alt="SAFAL Group Logo" 
+                />
+              </Row>
+            </Col>
           </Row>
           <hr className="footer-hr" />
           <p>© 2023 ALAF | All rights reserved.</p>

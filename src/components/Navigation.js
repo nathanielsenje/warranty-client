@@ -1,7 +1,6 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 
 function Navigation() {
   return (
@@ -16,13 +15,13 @@ function Navigation() {
           </p>
         </Col>
         <Col md="auto">
-          <Button className="pt-2 pb-2 pulse-animation">BUY NOW</Button>
+          <button className="pt-2 pb-2 pulse">BUY NOW</button>
         </Col>
         <Col md="auto">
-          <Button className="pt-2 pb-2">WARRANTY</Button>
+          <button className="pt-2 pb-2">WARRANTY</button>
         </Col>
         <Col md="auto">
-          <Button className="pt-2 pb-2">DESIGN MY HOME</Button>
+          <button className="pt-2 pb-2">DESIGN MY HOME</button>
         </Col>
         <Col lg={1}></Col>
       </Row>
