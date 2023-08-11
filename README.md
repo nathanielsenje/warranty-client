@@ -8,13 +8,19 @@ This repository contains the front-end code for the ALAF Warranty Website. The w
 
 ## Table of Contents
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
+- [ALAF Warranty Website - Front End](#alaf-warranty-website---front-end)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Author](#author)
+  - [Database tables](#database-tables)
+    - [1. Customer](#1-customer)
+    - [2. Warranty](#2-warranty)
+    - [3. Claims](#3-claims)
 
 ## Installation
 
@@ -76,3 +82,31 @@ This project is licensed under the [MIT License](LICENSE).
 This project is created and maintained by Nathaniel Senje.
 
 If you have any questions or feedback, feel free to contact me at [nathaniel@example.com](mailto:nathaniel@example.com).
+
+## Database tables
+### 1. Customer
+  id 
+  customer_id 
+  name
+  id_number
+  phone UNIQUE
+  email UNIQUE
+
+### 2. Warranty
+  id
+  warranty_code
+  customer_id
+  invoice_number
+  invoice_date
+  shop_name
+  product_name
+  quantity
+  town
+
+### 3. Claims
+  id
+  claim_id
+  warranty_code
+  claim_type
+  claim_description
+  claim_status
