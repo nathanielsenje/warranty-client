@@ -135,3 +135,8 @@ ul {
 .spaced-text {
   line-height: 2.5;
 }
+
+.footer-link {
+  color: #fafafa;
+  text-decoration: none;
+}
